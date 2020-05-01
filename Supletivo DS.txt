@@ -1,0 +1,41 @@
+﻿Modelos
+
+Supevisionado -> F(Xm) ~ Real
+	- Qual problema quero resolver?
+	- Qual resposta eu quero?
+		- Variável resposta
+			- binária (Classificação (discretas))
+			- Classes (Classificação (discretas))
+			- Contínua
+				- Regressão
+				- Árvores
+				- Redes Neurais
+	
+	- Objetivo 
+		Minimizar erro de uma função que prevê uma resposta
+		Min E (F(x) -> resposta)
+
+	- Passos
+		1) Publico
+			Selecionar uma amostra que representa seu público
+				- Precisam possuir, ou se pelo menos poder-se inferir uma variável resopsta para eles
+				- Experimento
+		2) Variáveis / Preditores
+			Seleção de preditores (variáveis)
+				- Disponível no público
+				- Univariate
+					- Missing
+					- Distribuição (Tratamento de outlier ou fazer o log da variável para um comportamento mais linear, por exemplo)
+		3) Bivariada / Feature Selection
+			- Relação entre cada preditor e a variável resposta
+			- Stepwise (combina todas as combinações de variáveis possíveis. Porém, tendo mais que 40 vars fica inviável)
+			- Lasso -> reg + λ
+			- Matriz de correlação
+				Variáveis muito correlacinadas entre si são geralmente removidas, pois assim tira-se a redundância, ganhando desempenho
+		4) Treino
+			- Hiper-parâmetros
+			- Métrica de previçao entre a resposta e variável real (normalmente está atrelada ao negócio)
+
+Não-Supervisionado
+
+	Hiper-parâmetro - Parâmetros que orimizam o resultado (ganho)
