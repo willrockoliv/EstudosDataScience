@@ -65,21 +65,21 @@ class Hangman:
 
     #Método Construtor
     def __init__(self, word):
-        Hangman.word = word
+        self.word = word
 
     # Método para adivinhar a letra
     def guess(self, latter):
-        if Hangman.word.find(latter) != -1:
-            Hangman.letras_descobertas.append(latter)
+        if self.word.find(latter) != -1:
+            self.letras_descobertas.append(latter)
             return True
         else:
-            Hangman.chances = Hangman.chances - 1
+            self.chances = self.chances - 1
             return False
 
 
     # Método para verificar se o jogo terminou
     def hangman_over(self):
-        if Hangman.chances == 0:
+        if self.chances == 0:
             return True
         else:
             return False
@@ -91,25 +91,25 @@ class Hangman:
         won = True
 
         for w in Hangman.word:
-            if Hangman.letras_descobertas.count(w) == 0:
+            if self.letras_descobertas.count(w) == 0:
                 won = False
 
         return won
 
     #Método para não mostrar a letra no board
     def hide_word(self):
-        Hangman.word_show = ''
-        for letra in Hangman.word:
-            if letra in Hangman.letras_descobertas:
-                Hangman.word_show = Hangman.word_show + letra
+        self.word_show = ''
+        for letra in self.word:
+            if letra in self.letras_descobertas:
+                self.word_show = self.word_show + letra
             else:
-                Hangman.word_show = Hangman.word_show + "_"
+                self.word_show = self.word_show + "_"
 
     #Mpetodo para checar o status do game e imprimir o board na tela
     def print_game_status(self):
-        Hangman.hide_word(self)
-        print(board[6-Hangman.chances])
-        print(Hangman.word_show)
+        self.hide_word(self)
+        print(board[6-self.chances])
+        print(self.word_show)
 
 
 #Função para ler uma palavra de forma aleatória do banco de palavras
