@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e43b2bd-e375-4eff-95b8-7ce2336646f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Cap05/Lab03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cap05/Lab03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/missao3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/missao3.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="7e43b2bd-e375-4eff-95b8-7ce2336646f4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/missao_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="-112">
               <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="56" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -90,6 +87,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -161,7 +159,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -274,7 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/missao_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="-112">
           <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="56" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
