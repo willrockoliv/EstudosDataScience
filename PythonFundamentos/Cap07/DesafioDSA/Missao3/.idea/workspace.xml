@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e43b2bd-e375-4eff-95b8-7ce2336646f4" name="Default Changelist" comment="" />
+    <list default="true" id="7e43b2bd-e375-4eff-95b8-7ce2336646f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/Mini-Projeto2 - Analise1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/Mini-Projeto2 - Analise1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cap09/Notebooks/DSA-Python-Cap09-Exercicio.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cap09/Notebooks/DSA-Python-Cap09-Exercicio.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,21 +14,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/missao_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://C:/ProgramData/Anaconda3/envs/Lab03/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7728">
+            <state relative-caret-position="827">
               <caret line="322" selection-start-line="322" selection-end-line="322" />
             </state>
           </provider>
@@ -72,6 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,7 +75,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,15 +171,6 @@
     </layout>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/missao_3.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="list_passos[-1][0]" language="Python" />
@@ -271,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/missao_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="936">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="56" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -281,7 +263,7 @@
     </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/Lab03/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7728">
+        <state relative-caret-position="827">
           <caret line="322" selection-start-line="322" selection-end-line="322" />
         </state>
       </provider>
