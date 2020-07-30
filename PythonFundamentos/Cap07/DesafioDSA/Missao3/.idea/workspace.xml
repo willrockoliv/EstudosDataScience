@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e43b2bd-e375-4eff-95b8-7ce2336646f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/dataset/__MACOSX/._autos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/plots/Analise1/count-vehicleType_resolution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/plots/Analise1/price-vehicleType-boxplot_resolution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/plots/Analise1/vehicle-distribution_resolution.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/.ipynb_checkpoints/Mini-Projeto2 - Analise1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/.ipynb_checkpoints/Mini-Projeto2 - Analise1-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/Mini-Projeto2 - Analise1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cap09/Mini-Projeto/Mini-Projeto2 - Analise1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Cap09/Notebooks/DSA-Python-Cap09-Exercicio.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Cap09/Notebooks/DSA-Python-Cap09-Exercicio.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,11 +78,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -251,16 +255,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/missao_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/missao_3.py" />
     <entry file="file://C:/ProgramData/Anaconda3/envs/Lab03/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
