@@ -3,7 +3,8 @@
 
 # Imports
 import time
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_eager_execution()
 import random
 import numpy as np
 from pathlib import Path

@@ -8,7 +8,7 @@ from deep_reinforcement_learning import *
 app = Flask(__name__)
 
 # Abrindo sessão
-sess = tf.InteractiveSession()
+sess = tf.compat.v1.InteractiveSession()
 
 # Previsões
 x , prediction, _ = createNetwork()
