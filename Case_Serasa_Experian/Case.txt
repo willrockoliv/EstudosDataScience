@@ -1,0 +1,17 @@
+Neste case, você precisa implementar uma solução que: 
+- Consiga buscar tweets com uma determinada “HashTag”, por exemplo, covid19.
+- Armazenar os resultados em formato Parquet
+- Criar um data warehouse para que seja possível consolidar dados analíticos por hashtag e posteriormente consultar informações coletadas de forma batch / online. 
+
+Recomendamos a utilização das seguintes tecnologias:  
+- Spark – Para extração, escrita e consolidação
+- Airflow – Orquestração do processamento
+- Docker / Compose – Para deploy da aplicação
+
+Testes/Tópicos que consideramos importantes:
+- Organização
+- Testes automatizados
+- Boas práticas de Data Engineering.
+- Arquitetura
+- Solução para Deploy em produção
+- Criatividade
