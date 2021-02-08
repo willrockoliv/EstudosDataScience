@@ -141,7 +141,7 @@ class TwitterListener(StreamListener):
         return True
 
 def authentication():
-    PATH = "D:/William/Computação/Data Science/Cases/SerasaExperian/{0}"
+    PATH = "D:/William/Computação/Data Science/keys/TwitterAPI/{0}"
     
     API_KEY = open(file=PATH.format("API_key.txt"), mode="r", encoding="UTF-8").read()
     API_SECRET_KEY = open(file=PATH.format("API_secret_key.txt"), mode="r", encoding="UTF-8").read()
@@ -151,6 +151,12 @@ def authentication():
     auth = OAuthHandler(API_KEY, API_SECRET_KEY)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
     return auth
+
+def aws_keys():
+    PATH = "D:/William/Computação/Data Science/keys/AWS/{0}"
+    ACCESS_KEY_ID = open(file=PATH.format("AWSAccessKeyId.csv"), mode="r", encoding="UTF-8").read()
+    SECRET_KEY = open(file=PATH.format("AWSSecretKey.csv"), mode="r", encoding="UTF-8").read()
+    return [ACCESS_KEY_ID, SECRET_KEY]
 
 def getData(keywords, languages=None, timeout=None, persist_time=60):
     print('authenticating...')
@@ -171,7 +177,7 @@ if __name__ == "__main__":
     sc = SparkContext.getOrCreate()
     spark = SparkSession.builder.getOrCreate()
     sqlContext = SQLContext(sc)
-
+    
     keywords = ["PALMEIRAS"]
     languages=["pt"]
     timeout = 60 # não funciona mto bem
