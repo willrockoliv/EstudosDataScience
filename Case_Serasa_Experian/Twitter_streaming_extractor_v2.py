@@ -178,8 +178,8 @@ if __name__ == "__main__":
     spark = SparkSession.builder.getOrCreate()
     sqlContext = SQLContext(sc)
     
-    keywords = ["PALMEIRAS"]
-    languages=["pt"]
+    keywords = ["COVID"]
+    languages=["pt", "en"]
     timeout = 60 # não funciona mto bem
     persist_time=10
 
