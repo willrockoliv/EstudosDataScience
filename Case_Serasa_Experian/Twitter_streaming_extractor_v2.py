@@ -191,7 +191,7 @@ if __name__ == "__main__":
                     )
         
         print("saving parquet...")
-        path = "./tweets"
+        path = "./layer1/tweets"
         df.write\
           .partitionBy("etl_load_partition_year",
                        "etl_load_partition_month",
